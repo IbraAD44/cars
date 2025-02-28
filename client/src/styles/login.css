@@ -1,0 +1,32 @@
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #b8cbd0;
+  flex-direction: column;
+  h1 {
+    color: #137c8b;
+    margin-top: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    background: #709ca7;
+    width: 400px;
+    gap: 20px;
+    input {
+      padding: 10px;
+      background: #709ca7;
+      border: none;
+      border-bottom: 1px solid rgb(235, 230, 230);
+    }
+    button {
+      color: rgb(247, 240, 240);
+      border: none;
+      background: #137c8b;
+      padding: 10px;
+    }
+  }
+}
